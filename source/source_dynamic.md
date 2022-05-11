@@ -49,4 +49,4 @@ It's very important to remember that the "*Sequence struct v0*" has NO relation
 with the Audaspace World. It is the "*Sequence struct Copy-on-write*" which hast
 that relation, and that's the reason why the changes have to be done later.
 
-This relation is a std::shared_ptr<SequenceEntry>.
+This relation is a `std::shared_ptr<SequenceEntry>`.
